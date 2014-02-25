@@ -1,0 +1,40 @@
+h2 + p {
+color: red;
+}
+span {
+color: blue;
+}
+/*h2 header style*/
+h2{
+    color: #576D94;
+    font-family: verdana, sans-serif;
+}
+p{
+    font-size: 18px;
+    color: #4A4943;
+    font-family: garamond, serif; 
+}
+/*h3=purple, h4=green*/
+h3{
+    color: purple;
+    font-size: 17px;
+    font-family: verdana, sans-serif;
+}
+h4{
+    color: green;
+    font-size: 16px;
+    font-family: verdana, sans-serif;
+}
+h5{
+    color: orange;
+    font-size: 12px;
+    font-family: verdana, sans-serif;
+}
+a {
+    color: pink;
+}
+img{
+    border: 1px solid #4682b4;
+    height: 200px;
+    width: 400px;
+}

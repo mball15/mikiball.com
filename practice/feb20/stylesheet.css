@@ -1,0 +1,19 @@
+body {
+    background-color: #a2a2a2;
+}
+
+div div h3 {
+    color: purple;
+}
+
+div div div h3 {
+    color: red;
+}
+
+p{
+    color: #00E5EE;
+}
+
+div p{
+    color: #CC0000;
+}
