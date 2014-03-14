@@ -1,3 +1,24 @@
 h1 { 
-    color:purple;
+    color: white;
+    font-size: 1.5em;
+    
+}
+.box {
+    background : #f8f8f8;
+    margin-bottom: 15px;
+}
+.mainnav {
+    background-color: grey;
+    height:100px;
+}
+.navitem {
+    text-align:center;
+}
+.events {
+    background-color: white;
+}
+
+.date {
+    font-family: helvetica-bold;
+    font-size:16px;
 }
