@@ -1,24 +1,38 @@
-h1 { 
-    color: white;
-    font-size: 1.5em;
-    
-}
-.box {
-    background : #f8f8f8;
-    margin-bottom: 15px;
-}
 .mainnav {
-    background-color: grey;
-    height:100px;
-}
-.navitem {
-    text-align:center;
-}
-.events {
-    background-color: white;
+    background-color: #adadad;
+    padding: 50px;
+    margin-bottom: 30px;
 }
 
-.date {
-    font-family: helvetica-bold;
-    font-size:16px;
+.navitem {
+    font-family: avenir;
+    font-size: 10pt;
+    letter-spacing: 2px;
+    padding-top: 5px;
+}
+
+h2 {
+    font-family: avenir-heavy;
+    letter-spacing: 4px;
+    text-align: center;
+    font-size: 33px;
+    line-height: 140%;
+}
+
+.learnmore {
+    text-align: center;
+    font-family:avenir-book;
+    letter-spacing: 1px;
+    color: #ededed;
+    background-color: #adadad;
+    padding: 20px;
+    width: 35%;
+    align-self: center;
+    margin-top: 40px;
+}
+
+.jumbotron-alt {
+    padding-top: 100px;
+    padding-bottom: 130px;
+    border-radius: 0;
 }
