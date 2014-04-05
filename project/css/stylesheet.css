@@ -1,3 +1,11 @@
+html { 
+  background: url(images/testbackground.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .mainnav {
     background-color: #adadad;
     padding: 50px;
@@ -19,6 +27,13 @@ h2 {
     line-height: 140%;
 }
 
+h3{
+    font-family: avenir-heavy;
+    letter-spacing: .5px;
+    font-size: 15px;
+}
+    
+
 .learnmore {
     text-align: center;
     font-family:avenir-book;
@@ -31,8 +46,48 @@ h2 {
     margin-top: 40px;
 }
 
-.jumbotron-alt {
+.jumbotron {
     padding-top: 100px;
     padding-bottom: 130px;
-    border-radius: 0;
+    border-radius: 0 !important;
+    background-size: url(images/testjumbotron.jpg);
+}
+.footer {
+     background-color: #adadad;
+    padding: 50px;
+}
+.thumbnail{
+   border: none;
+   background-color: #ededed;
+    border-radius:0 !important;
+    padding: 0;
+    margin-bottom:
+}
+.thumbnail > img,
+.thumbnail a > img {
+ padding: 0;
+    margin-bottom: 0;
+}
+
+.thumbnail .caption {
+  padding-left: 25px;
+    padding-bottom:15px;
+  color: #333;
+}
+p {
+    font-family:avenir-light;
+    font-size: 10pt;
+}
+.footer ul li {
+    font-family: avenir;
+    font-size: 10pt;
+    letter-spacing: 1px;
+    padding-top: 20px;
+}
+.bottombar {
+    padding :20px;
+    background-color: #535353;
+}
+.socialmedia{
+    padding-left: 17px;
 }
