@@ -23,6 +23,15 @@
     <link href="css/bootstrap.css" rel="stylesheet">
       
     <link href="css/stylesheet.css" rel="stylesheet">
+      
+      <script language="javascript">
+        function MouseRollover(MyImage) {
+        MyImage.src = "images/diversitypleaselogohover.png";
+    }
+        function MouseOut(MyImage) {
+        MyImage.src = "images/diversitypleaselogo.png";
+    }
+</script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -32,11 +41,14 @@
     <![endif]-->
   </head>
   <body>
-     
+      
       <div class="container-fluid mainnav ">
       <div class="container"> 
           <div class="row">
-              <div class="col-lg-6 col-md-6 logo"><a href="http://www.tumblr.com/"><img src="images/diversitypleaselogo.png"/></a></div>
+              <div class="col-lg-6 col-md-6 logo"><a href="http://www.tumblr.com/"><img src="images/diversitypleaselogo.png" border="0px" 
+width="249px" height="29px" 
+onMouseOver="MouseRollover(this)" 
+onMouseOut="MouseOut(this)" /></a></div>
               <div class="col-lg-6 col-md-6">
              <ul class="nav-justified navitem">
                 <li><a href="http://www.tumblr.com/">ABOUT</a></li>
@@ -48,25 +60,27 @@
           </div>
           </div>
           </div>
+    
       <div class="container"> 
           <div class="jumbotron">
   <h2>WE ARE A COMMUNITY OF THINKERS <br> FACILITATING A CRITICAL DIALOGUE <br> ABOUT THE LACK OF DIVERSE <br> REPRESENTATION IN MEDIA.</h2>
-<div class="learnmore container">LEARN MORE</div>
+<a style="display:block" href="#"><div class="learnmore container">LEARN MORE</div></a>
 </div>
           <div class="row">
   <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
+     <div class="thumbnail">
       <img src="images/350x250placeholder.jpg" alt="picture will be here">
-      <div class="caption">
-        <h3>THUMBNAIL LABEL</h3>
+       <div class="caption">
+        <a style="display:block" href="#"><h3>THUMBNAIL LABEL</h3></a>
       </div>
     </div>
+         
   </div>
       <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
       <img src="images/350x250placeholder.jpg" alt="picture will be here">
       <div class="caption">
-        <h3>THUMBNAIL LABEL</h3>
+        <a style="display:block" href="#"><h3>THUMBNAIL LABEL</h3></a>
       </div>
     </div>
   </div>
@@ -74,7 +88,7 @@
     <div class="thumbnail">
       <img src="images/350x250placeholder.jpg" alt="picture will be here">
       <div class="caption">
-        <h3>THUMBNAIL LABEL</h3>
+        <a style="display:block" href="#"><h3>THUMBNAIL LABEL</h3></a>
       </div>
     </div>
   </div>
@@ -84,7 +98,7 @@
     <div class="thumbnail">
       <img src="images/350x250placeholder.jpg" alt="picture will be here">
       <div class="caption">
-        <h3>THUMBNAIL LABEL</h3>
+        <a style="display:block" href="#"><h3>THUMBNAIL LABEL</h3></a>
       </div>
     </div>
   </div>
@@ -92,7 +106,7 @@
     <div class="thumbnail">
       <img src="images/350x250placeholder.jpg" alt="picture will be here">
       <div class="caption">
-        <h3>THUMBNAIL LABEL</h3>
+        <a style="display:block" href="#"><h3>THUMBNAIL LABEL</h3></a>
       </div>
     </div>
   </div>
@@ -100,7 +114,7 @@
     <div class="thumbnail">
       <img src="images/350x250placeholder.jpg" alt="picture will be here">
       <div class="caption">
-        <h3>THUMBNAIL LABEL</h3>
+        <a style="display:block" href="#"><h3>THUMBNAIL LABEL</h3></a>
       </div>
     </div>
   </div>
@@ -110,7 +124,7 @@
     <div class="thumbnail">
       <img src="images/350x250placeholder.jpg" alt="picture will be here">
       <div class="caption">
-        <h3>THUMBNAIL LABEL</h3>
+        <a style="display:block" href="#"><h3>THUMBNAIL LABEL</h3></a>
       </div>
     </div>
   </div>
@@ -118,7 +132,7 @@
     <div class="thumbnail">
       <img src="images/350x250placeholder.jpg" alt="picture will be here">
       <div class="caption">
-        <h3>THUMBNAIL LABEL</h3>
+        <a style="display:block" href="#"><h3>THUMBNAIL LABEL</h3></a>
       </div>
     </div>
   </div>
@@ -126,12 +140,13 @@
     <div class="thumbnail">
       <img src="images/350x250placeholder.jpg" alt="picture will be here">
       <div class="caption">
-        <h3>THUMBNAIL LABEL</h3>
+        <a style="display:block" href="#"><h3>THUMBNAIL LABEL</h3></a>
       </div>
     </div>
   </div>
 </div>
  </div>
+       
       <div class="continer-fluid footer">
       <div class="container">          
       <div class="row">
@@ -164,7 +179,7 @@
             </div>
           </div>
         </form>
-                    <div class="socialmedia" ><ul class="nav footernav" style="list-style: none; ">
+                    <div><ul class="nav footernav" style="list-style: none; ">
                        <li><a href="#">E-MAIL US</a></li>
                        <li><a href="#">FACEBOOK</a></li>
                        <li><a href="#">TWITTER</a></li>
@@ -175,6 +190,7 @@
           </div>
           </div>
       <div class="bottombar"></div>
+       
          
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>

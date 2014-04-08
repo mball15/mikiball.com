@@ -1,14 +1,15 @@
 body { 
-  background: url(images/testbackground.jpg) no-repeat center center fixed; 
+  background: url(images/background.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 .mainnav {
-    background-color: #adadad;
+    background-color: #8AE2C7;
     padding: 50px;
     margin-bottom: 30px;
+      box-shadow: 0px 0px 15px #333;
 }
 
 .navitem {
@@ -24,6 +25,9 @@ h2 {
     text-align: center;
     font-size: 33px;
     line-height: 140%;
+   text-shadow: 0px 0px 15px #333;
+  color: white;
+    
 }
 
 h3{
@@ -31,36 +35,28 @@ h3{
     letter-spacing: .5px;
     font-size: 15px;
 }
-    
-
-.learnmore {
-    text-align: center;
-    font-family:avenir-book;
-    letter-spacing: 1px;
-    color: #ededed;
-    background-color: #adadad;
-    padding: 20px;
-    width: 35%;
-    align-self: center;
-    margin-top: 40px;
-}
 
 .jumbotron {
     padding-top: 100px;
     padding-bottom: 130px;
     border-radius: 0 !important;
-    background-image: url(images/testjumbotron.jpg);
+    background-image: url(images/rainbowbanner.jpg);
+   
 }
 .footer {
-     background-color: #adadad;
-    padding: 50px;
+     background-color: #8AE2C7;
+    padding: 35px;
+    padding-bottom: 55px;
+      box-shadow: 0px 0px 15px #333;
 }
 .thumbnail{
    border: none;
-   background-color: #ededed;
+   background-color: #8AE2C7;
     border-radius:0 !important;
     padding: 0;
-    margin-bottom:
+    margin-bottom:30px;
+    
+  
 }
 .thumbnail > img,
 .thumbnail a > img {
@@ -85,19 +81,17 @@ p {
 }
 .bottombar {
     padding: 0px;
-    height:50px;
-    background-color: #535353;
+    height:30px;
+    background-color: #333;
 }
-.socialmedia{
-    padding-left: 17px;
-}
+
 a {
     text-decoration:none;
     color:black;    
 }
 
 a:hover {
-    color: #488290;
+    color: #D13947;
     background-color:transparent;
     text-decoration:none;
 }
@@ -110,4 +104,48 @@ a:hover {
     list-style-type: none;
 }
 
+.navbar-form {
+    padding: 0;
+}
 
+.learnmore {
+    text-align: center;
+    font-family:avenir-book;
+    letter-spacing: 1px;
+    color: white;
+    background-color: #333;
+    padding: 20px;
+    width: 35%;
+    align-self: center;
+    margin-top: 40px;
+    display:block;
+    box-shadow: 0px 0px 15px #333;
+}
+
+.redbar {
+    padding: 0px;
+    height:5px;
+    background-color: #D13947;
+}
+
+.learnmore:hover {
+    background-color: #D13947;
+}
+
+.thumbnail > caption > a : hover{
+    background-color: #D13947;
+    color: white;
+}
+
+.logo{
+	display: block;
+	width: 249px;
+	height: 29px;
+	background: url(images/diversitypleaselogo.png) bottom;
+	text-indent: -99999px;
+    
+}
+.logo : hover {
+	background-position: 0 0;
+    background: url(images/diversitypleaselogo.png) top;
+}
